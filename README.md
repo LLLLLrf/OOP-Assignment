@@ -1,12 +1,15 @@
-#README
-##assignment2
+# README
+
+## assignment2
 
 ***
-###How to begin
+### How to begin
+
 Only **"+", "-", "*", "/", "(", ")"** are acceptible in the program
 You can just run **main.py** for a quick start (Recommended)
 
 The following are some examples of invalid expressions
+
 ```
 (4*3*2)                     Not a valid expression, wrong number of operands.
 (4*(2))                     Not a valid expression, wrong number of operands.
@@ -20,7 +23,8 @@ The following are some examples of invalid expressions
 (1%2)                       Not a valid expression, invalid symbol was entered.
 ```
 
-###File Structure
+### File Structure
+
 ```
 ├── README.md                   // help
 ├── tree_demo
@@ -31,7 +35,8 @@ The following are some examples of invalid expressions
 └── testunit.py                 // for testing whether the functions work as expected
 ```
 
-###Function List
+### Function List
+
 functions in **assignment.py**
 ```
 suffix()         // receives an infix expression, turns it into suffix expression and returns it
@@ -50,7 +55,8 @@ main_function()  // controls all the functions except save_tree() and read_tree(
 ```
 
 
-###Summary
+### Summary
+
 In **assignment.py** you may 
 - use： main_function() to turn the equation into a tree and print it out
 - use： save_tree() to save the root node of the tree into a document
